@@ -1,0 +1,44 @@
+
+.Buttons {
+    text-align: center;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    grid-column: span 1;
+    /* height: 40px;
+    width: 60px;
+    padding: 0px; */
+  }
+  
+  
+  
+  .Buttons.orange{
+    background-color: orange;
+  }
+  
+  .Buttons.orange:active{
+    background-color: rgb(155, 101, 0);
+  }
+  
+  .Buttons.lightgrey{
+    background-color: #797979;
+  }
+  
+  .Buttons.lightgrey:active{
+    background-color: #4f4f4f;
+  }
+  
+  .Buttons.lightgrey.longer{
+    grid-column: span 2;
+  }
+  
+  .Buttons.darkgrey{
+    background-color:#282c34;
+  }
+  
+  .Buttons.darkgrey:active{
+    background-color:#0b0d12;
+  }
+  

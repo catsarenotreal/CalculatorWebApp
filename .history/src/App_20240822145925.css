@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+:root{
+  
+  --greyBG: grey;
+  --darkGreyBG: rgb(46, 46, 46);
+  --orangeBG: orange;
+
+  --bgColour: if ('grey') var(--greyBG) else var(--orangeBG)
+  
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+.DisplayScreen {
+  background-color: rgb(24, 24, 24);
+  text-align: right;
+}
+
+.Buttons {
+  text-align: center;
+  box-shadow: none;
+  border: 0;
+  border-radius: 0;
+  font-size: 2rem;
+  color: white;
+  height: 80px;
+  width: 80px;
+}
+
+.Buttons.orange{
+  background-color: orange;
+}
+
+.Buttons.lightgrey{
+  background-color: #797979;
+}
+
+.Buttons.darkgrey{
+  background-color:#282c34;
+}
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
